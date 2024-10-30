@@ -91,7 +91,6 @@ pillow==10.4.0
 posthog==3.7.0
 propcache==0.2.0
 proto-plus==1.25.0
-protobuf
 pyarrow
 pyasn1
 pyasn1_modules
