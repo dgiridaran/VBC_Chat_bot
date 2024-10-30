@@ -8,3 +8,6 @@ venv/
 Untitled.ipynb
 .Untitled.ipynb
 .env
+.streamlit/
+.streamlit
+secrets.toml

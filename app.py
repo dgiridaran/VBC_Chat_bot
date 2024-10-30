@@ -12,7 +12,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-g_key = os.getenv("g_key")
+# g_key = os.getenv("g_key")
+g_key = st.secrets["g_key"]
 
 model = ChatGoogleGenerativeAI(model="gemini-pro",google_api_key=g_key,
                              temperature=0.2,convert_system_message_to_human=True)
@@ -34,7 +35,6 @@ qa_chain = RetrievalQA.from_chain_type(
     memory=memory
 )
 
-print(memory.)
 
 st.title("VBC Support Chat bot")
 
