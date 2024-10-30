@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+.ipynb_checkpoints/
+# data/
+# .data/
+venv
+.venv
+venv/
+Untitled.ipynb
+.Untitled.ipynb
+.env
