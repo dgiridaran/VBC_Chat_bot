@@ -105,7 +105,7 @@ PyPika
 pyproject_hooks
 pyreadline3
 python-dateutil
-python-dotenv=
+python-dotenv
 pytz
 PyYAML
 referencing
